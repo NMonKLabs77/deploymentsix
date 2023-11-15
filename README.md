@@ -35,7 +35,9 @@ default-jre
 
 Step 1: I created a Terraform File provisioning 2 instances in default VPC for a Jenkins Manager and Agent Architecture
 
-<img width="752" alt="Screenshot 2023-11-14 at 5 02 15 PM" src="https://github.com/NMonKLabs77/deployment6/assets/139259756/98ffe327-d506-4c18-ba08-1c432151f10e">
+<img width="752" alt="Screenshot 2023-11-14 at 5 02 15 PM" src="https://github.com/NMonKLabs77/deploymentsix/assets/139259756/364e51c9-a3e8-480c-abbc-bc097d4ce0bd">
+
+
 
 
 
@@ -47,20 +49,25 @@ Step 2: Created two VPCs with Terraform, 1 VPC in US-east-1 and the other VPC in
 1 Route Table
 Security Group Ports: 8000 and 22
 
-<img width="506" alt="Screenshot 2023-11-14 at 5 03 25 PM" src="https://github.com/NMonKLabs77/deployment6/assets/139259756/dcd9a2fc-38b4-4b1b-bc98-102428aa54ac">
+<img width="506" alt="Screenshot 2023-11-14 at 5 03 25 PM" src="https://github.com/NMonKLabs77/deploymentsix/assets/139259756/99bb2e92-9a81-40ed-92e0-f2c0f14c1f9c">
+
+
 
 
 Step 3: After, I made a user data script that will install the dependencies 
 
-<img width="511" alt="Screenshot 2023-11-14 at 5 06 05 PM" src="https://github.com/NMonKLabs77/deployment6/assets/139259756/f4c0ac67-a520-4109-a2d1-7797e25a8c4f">
+<img width="511" alt="Screenshot 2023-11-14 at 5 06 05 PM" src="https://github.com/NMonKLabs77/deploymentsix/assets/139259756/d48a2e56-880e-41c4-ac9a-a83f05072022">
+
+
 
 Step 4: Create and RDS Database
 
-<img width="1113" alt="Screenshot 2023-11-14 at 5 07 45 PM" src="https://github.com/NMonKLabs77/deployment6/assets/139259756/f2056bae-1a18-4648-af14-67b89386477a">
+<img width="1113" alt="Screenshot 2023-11-14 at 5 07 45 PM" src="https://github.com/NMonKLabs77/deploymentsix/assets/139259756/e790f4b2-0370-4217-a314-e50f9fe82cb9">
 
 
+<img width="806" alt="Screenshot 2023-11-14 at 5 09 47 PM" src="https://github.com/NMonKLabs77/deploymentsix/assets/139259756/fe8c4841-9948-4e14-a2fa-c0d71dc7379e">
 
-<img width="806" alt="Screenshot 2023-11-14 at 5 09 47 PM" src="https://github.com/NMonKLabs77/deployment6/assets/139259756/92beba03-bd07-46a7-917a-2cddba5b3d53">
+
 
 Step 5: Configured AWS credentials in Jenkins
 
